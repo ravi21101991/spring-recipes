@@ -1,0 +1,19 @@
+<beans
+        xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+    <bean id="battery" class="com.spring.recipe.product.Battery">
+        <constructor-arg name="name" value="battery"/>
+        <constructor-arg name="price" value="25.00"/>
+        <property name="rechargeable" value="true"/>
+    </bean>
+
+    <bean id="disc" class="com.spring.recipe.product.Disc">
+        <constructor-arg name="name" value="disc"/>
+        <constructor-arg name="price" value="10.00"/>
+        <property name="rpm" value="1000"/>
+    </bean>
+
+</beans>
