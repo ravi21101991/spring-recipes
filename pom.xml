@@ -14,6 +14,7 @@
         <module>spring-1-2</module>
     <module>spring-1-3</module>
     <module>spring-1-4</module>
+    <module>spring-1-5</module>
   </modules>
     <!--***********************************-->
     <!-- Version properties                -->
